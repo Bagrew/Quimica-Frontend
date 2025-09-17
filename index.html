@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Química: A Molécula do Etino (Acetileno)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Química Simples: Etino (Acetileno)</h1>
+            <p>Um guia interativo sobre o C₂H₂</p>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section>
+             <div class="section-content">
+                <h2 class="section-title">Sobre o Etino (C₂H₂)</h2>
+                
+                <div class="card-grid">
+                    <div class="card">
+                        <h3>Fórmula Química</h3>
+                        <p class="formula">C<sub class="text-sub">2</sub>H<sub class="text-sub">2</sub></p>
+                        <p>Dois átomos de carbono e dois de hidrogênio.</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Ligação Química</h3>
+                        <p>Covalente, com uma ligação tripla entre os átomos de carbono (C≡C).</p>
+                        <p>Ocorre pelo compartilhamento de elétrons.</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Propriedades Físicas</h3>
+                        <ul>
+                            <li>Estado: Gás (temperatura ambiente)</li>
+                            <li>Ponto de Fusão: -80,8 °C</li>
+                            <li>Ponto de Ebulição: -84 °C</li>
+                            <li>Densidade: 1.11 g/L</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Aplicações</h3>
+                        <p>Usado em solda oxicombustível, produção de plásticos e síntese de outras substâncias orgânicas.</p>
+                    </div>
+                </div> 
+
+                <div class="card">
+                    <h3>Geometria Molecular</h3>
+                    <div id="molecule-3d-container"></div>
+                    <p>Arraste para interagir com o modelo 3D. A geometria do etino é <strong>linear</strong>, com um ângulo de 180°.</p>
+                 </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-content">
+                <h2 class="section-title">Teste seu Conhecimento!</h2>
+                <div id="quiz-container">
+                    
+                    <p id="question-text"></p>
+                    <div id="options-container"></div>
+                    
+                    <div id="info-container" class="hidden">
+                        <h3 id="info-title" class="hidden"></h3>
+                        <p id="info-text" class="hidden"></p>
+                        <img id="info-image" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Imagem relacionada à pergunta" class="hidden">
+                    </div>
+                    
+                    <p id="result-message"></p>
+                    
+                    <button id="next-button" class="hidden">Próxima Pergunta</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Trabalho de Química. Todos os direitos reservados.</p>
+            <p>Desenvolvido por Andrew.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
