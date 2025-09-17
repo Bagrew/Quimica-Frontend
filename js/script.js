@@ -20,7 +20,7 @@ window.onload = function() {
             info: {
                 title: "Ligação Tripla no Etino",
                 text: "A ligação entre os dois átomos de carbono no etino é uma ligação tripla, composta por uma ligação sigma (σ) e duas ligações pi (π).",
-                image: "etino.webp"
+                image: "img/etino.webp"
             }
         },
         {
@@ -30,7 +30,7 @@ window.onload = function() {
             info: {
                 title: "Solda Oxicombustível",
                 text: "O etino é usado em tochas de soldagem oxicombustível (misturado com oxigênio) porque sua combustão gera uma chama de altíssima temperatura, ideal para cortar e unir metais.",
-                image: "solda.webp"
+                image: "img/solda.webp"
             }
         },
         {
@@ -40,7 +40,7 @@ window.onload = function() {
             info: {
                 title: "Geometria Linear",
                 text: "A presença da ligação tripla entre os átomos de carbono força a molécula a ter uma geometria linear, com um ângulo de 180° entre os átomos.",
-                image: "geometria.webp"
+                image: "img/geometria.webp"
             }
         },
     ];
